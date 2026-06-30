@@ -4,13 +4,13 @@ const getHotels = async(city)=>{
 
 const options = {
 method:"GET",
-url:"https://booking-com.p.rapidapi.com/v1/hotels/locations",
+url:"",
 params:{
 name:city,
 locale:"en-gb"
 },
 headers:{
-"X-RapidAPI-Key":process.env.RAPID_API_KEY
+"
 }
 };
 
